@@ -40,14 +40,29 @@ function watchUTube(){
     //opens a new tab and plays video
     window.open("https://youtu.be/aawxhGuYr2M");
 }
-function funnyImage(event){
+function funnyImage(event){//this is blown up
     event.style.height = "200px";
     event.style.width = "200px";
+    textBlowUp();    
 }
-function normImage(event){
+function normImage(event){//this is normal
     event.style.height = "50px";
     event.style.width = "50px";
+    textNormal();
 }
+function textBlowUp(){
+    document.getElementById("pBoss").visibility = "visible";
+    document.getElementById("pBoss").style.fontSize = "10px";
+    document.getElementById("pBoss").style.color = "black";
+    document.getElementById("pBoss").style.fontFamily = "'Courier New', Courier, monospace";
+
+}
+function textNormal(){
+    document.getElementById("pBoss").style.visibility = "hidden";
+}
+
+
+ 
 
 
 

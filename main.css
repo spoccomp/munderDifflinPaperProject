@@ -122,6 +122,15 @@ h1{
     height: 50px;
     width: 50px;
 }
+/* #pBoss{
+    font-size: 3px;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    visibility: hidden;
+} */
+.boss{
+    display: inline-block;
+}
 .buttonStuff{
     display: block;
     margin-left: auto;
