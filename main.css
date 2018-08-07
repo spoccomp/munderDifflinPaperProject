@@ -1,0 +1,170 @@
+body {
+    background-image: url("/Users/macuser/Documents/NYCode+DesignAcademy/projects/munderDifflinPaper/white-crumpled-paper-texture-for-background_1373-159.jpg");
+}
+.banner{
+    background-color: blue;
+    margin-top: 1%;
+    height: 70px;   
+}
+.divTextBan{
+    color: aliceblue;
+    font-family: Roboto, Courier, monospace;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divTextSubBan{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.crmpBall{
+    
+    align-content: center;
+    display: inline-block;
+    position: relative;
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-direction:alternate;
+    animation-fill-mode: forwards;
+    /* animation-iteration-count: infinite; */
+    /* animation-timing-function: linear; */
+}
+.resizePprBllImg{ 
+    height: 50px;
+    width: 50px;
+    margin-left: 40px;
+}
+.h1Sales{
+    color:rgb(110, 170, 223);
+    text-align: center;
+    font-size: 32px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+
+.pFun{
+    font-size: 26px;
+    text-align: center;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.hidden{
+    visibility: hidden;
+}
+.btnDiv{
+    margin-left: 43.5%;
+}
+.btnSee{
+    color: rgb(110, 170, 223);
+    background-color: aliceblue;
+    text-align: center;
+}
+.btnHide{
+    color: rgb(110, 170, 223);;
+    background-color: aliceblue;
+    text-align: center;
+}
+.saleBox{
+    /* display: inline-flex; */
+    display: inline-block;    
+    margin-left: 150px;
+    height: 200px;
+    width: 200px;
+    opacity: 0;
+    animation: fadeIn;
+    animation-fill-mode: forwards;
+}
+h1{
+    color: rgb(110, 170, 223);
+    font-size: 36px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.priceStuff{
+    display:flex;
+    color: rgb(110, 170, 223);
+    font-size: 40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    align-items: center;
+    justify-content: center;
+
+}
+.theSpan{
+    color:blue;
+    font-size: 30px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.pStuff{
+    font-size: 26px;
+    text-align: center;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.pStuff1{
+    font-size: 18px;
+    text-align: center;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.copyImg{
+    height: 200px;
+    width: 200px;
+}
+.imgManger{
+    height: 50px;
+    width: 50px;
+}
+.buttonStuff{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: solid black;
+    color:rgb(110, 170, 223);
+    font-family: 'Courier New', Courier, monospace;
+    size: 18px;
+    font-weight: bold;
+    height: 70px;
+    width: 80px;
+  }
+.theFoot{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 50%; */
+  bottom: 0;
+}
+#divSize{
+    height: 25px;
+}
+
+@keyframes spin {
+    from {
+        left: 0px;
+        transform:rotate(3600deg);
+    }
+    to {
+        left: 550px;
+        
+    }   
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+    /* 0% {
+        opacity: 0;
+      }
+    50% {
+        opacity: .3;
+      }
+    100% {
+        opacity: 1; */
+}
