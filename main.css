@@ -118,9 +118,14 @@ h1{
     height: 200px;
     width: 200px;
 }
+.leftSide{
+    display:inline-block;
+}
 .imgManger{
     height: 50px;
     width: 50px;
+    padding-right: 25px;
+
 }
 /* #pBoss{
     font-size: 3px;
@@ -128,9 +133,6 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     visibility: hidden;
 } */
-.boss{
-    display: inline-block;
-}
 .buttonStuff{
     display: block;
     margin-left: auto;
