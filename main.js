@@ -1,14 +1,14 @@
 
 
 //below enlarges and normalizes the funny image
-let growShrink = document.querySelector(".copyImg");
+let growShrink = document.querySelector("#funnyTP");
 growShrink.addEventListener("mouseover",funnyFunction);
-function funnyFunction(){ 
+function funnyFunction(event){ 
     event.target.style.height = "400px";
     event.target.style.width = "400px";
 }
 growShrink.addEventListener("mouseout",backToNormal);
-function backToNormal(){
+function backToNormal(event){
     event.target.style.height = "200px";
     event.target.style.width = "200px";
 }
@@ -16,11 +16,11 @@ function backToNormal(){
 //below changes the color of the text 
 let changeColor = document.querySelector(".pFun");
 changeColor.addEventListener("mouseover",makeItFunny);
-function makeItFunny(){
+function makeItFunny(event){
     event.target.style.color = "red";
 }
 changeColor.addEventListener("mouseout",makeItNormal);
-function makeItNormal(){
+function makeItNormal(event){
     event.target.style.color = "black";
 }
 
@@ -73,7 +73,7 @@ topFunImg2.addEventListener("mouseout",normImage);
 topFunImg3.addEventListener("mouseout",normImage);
 topFunImg4.addEventListener("mouseout",normImage);
 
-function normImage(){//this normalizes manager image
+function normImage(event){//this normalizes manager image
     event.target.style.height = "50px";
     event.target.style.width = "50px";
 }
