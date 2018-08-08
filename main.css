@@ -38,7 +38,7 @@ body {
 .resizePprBllImg{ 
     height: 50px;
     width: 50px;
-    margin-left: 40px;
+    margin-left: 65px;
 }
 .h1Sales{
     color:rgb(110, 170, 223);
@@ -124,18 +124,12 @@ h1{
 .leftSide{
     display:inline-block;
 }
-.imgManger{
+#imgManger1,#imgManger2,#imgManger3,#imgManger4{
     height: 50px;
     width: 50px;
     padding-right: 25px;
 
 }
-/* #pBoss{
-    font-size: 3px;
-    color:black;
-    font-family: 'Courier New', Courier, monospace;
-    visibility: hidden;
-} */
 .buttonStuff{
     display: block;
     margin-left: auto;

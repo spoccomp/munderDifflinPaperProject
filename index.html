@@ -26,11 +26,11 @@
         <!-- Team images and what we do section -->
         <section class="leftSide">
             <h1>Who we are ==>
-        
-                <img src="regionalManager.png" alt="ugh" class="imgManger" onmouseover="funnyImage(this)" onmouseout="normImage(this)">
-                <img src="assistantRegionalManager.png" alt="ugh" class="imgManger" onmouseover="funnyImage(this)" onmouseout="normImage(this)">
-                <img src="assistantRegionalSalesMgr.png" alt="ugh" class="imgManger" onmouseover="funnyImage(this)" onmouseout="normImage(this)">
-                <img src="pamBeesly.png" alt="ugh" class="imgManger" onmouseover="funnyImage(this)" onmouseout="normImage(this)">
+                <!-- onmouseover="funnyImage(this)" onmouseout="normImage(this)" -->
+                <img src="regionalManager.png" alt="ugh" id="imgManger1" >
+                <img src="assistantRegionalManager.png" alt="ugh" id="imgManger2" >
+                <img src="assistantRegionalSalesMgr.png" alt="ugh" id="imgManger3" >
+                <img src="pamBeesly.png" alt="ugh" id="imgManger4" >
             </h1>
             <p class="pStuff1">At Munder Difflin paper company we strive for excellence when it comes to paper distribution
             and products. We make it our goal to meet and exceed our customers needs. We offer the right
@@ -44,7 +44,7 @@
         </section>
         <!-- Funny text changes color section -->
         <section id="divSize">
-            <p class="pFun" onmouseover=makeItFunny(this) onmouseout="makeItNormal(this)">"Limitless paper in a paperless world!"</p>
+            <p class="pFun">"Limitless paper in a paperless world!"</p>
         </section>
         <!-- Copy paper sale section -->
         <section class="saleBox">
@@ -59,13 +59,14 @@
         <!-- Toilet paper sale section -->
         <section class="saleBox">
             <p class="pStuff">Best Toilet Paper</p>
-            <img src="funny-tp.jpeg" alt="wow" class="copyImg" onmouseover="funnyFunction(this)" onmouseout="backToNormal(this)">
+            <img src="funny-tp.jpeg" alt="wow" class="copyImg">
         </section>
         <!-- Call and competitors video -->
         <p class="priceStuff">Call for pricing!</p>
         <p class="priceStuff">756-890-7600</p>
         <p class="priceStuff">Or you can checkout our competitors</p>
-        <button class="buttonStuff" onclick="watchUTube()" >Watch the pain!</button>
+        <button class="buttonStuff">Watch the pain!</button>
+        
     </main>
     
     <!--I tried to get the below code to work using W3 School but I couldn't
@@ -83,8 +84,10 @@
                 Phone: 756-890-7651
                 Fax:   756-890-7799</p>
             <div class="btnDiv" >   
-                <button class="btnSee" onclick="seeTeam()" >Click me</button>
-                <button class="btnHide" onclick="hiddenTeam()">Click to hide</button>
+                <button class="btnSee"  >Click me</button>
+                <!-- onclick="seeTeam()" -->
+                <button class="btnHide" >Click to hide</button>
+                <!-- onclick="hiddenTeam()" -->
             </div> 
 
             <img id="hidden" class="hidden" src="team.png" />
