@@ -25,6 +25,7 @@ function makeItNormal(event){
 }
 
 //below two buttons show and hide team photo
+//I did this in JS to test that I can. I know CSS is where it should go.
 let btnShowTeam = document.querySelector(".btnSee");
 btnShowTeam.addEventListener("click", seeTeam);
 function seeTeam(){
