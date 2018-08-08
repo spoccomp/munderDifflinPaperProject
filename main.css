@@ -82,6 +82,7 @@ body {
     animation-fill-mode: forwards;
 }
 h1{
+    margin-left: 25%;
     color: rgb(110, 170, 223);
     font-size: 36px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -108,6 +109,8 @@ h1{
     font-weight: bold;
 }
 .pStuff1{
+    margin-left: 15%;
+    margin-right: 15%;
     font-size: 18px;
     text-align: center;
     color:black;

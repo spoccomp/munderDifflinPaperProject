@@ -29,11 +29,18 @@ function makeItNormal(event){
     event.style.color = "black";
 }
 function seeTeam(){
-    document.getElementById("hidden").style.display = 'block';
+    //document.getElementById("hidden").style.display = 'block';
     document.getElementById("hidden").style.visibility = "visible";
+    document.getElementById("hidden").style.marginLeft = "15%";
+    document.getElementById("hidden").style.height = "400px";
+    document.getElementById("hidden").style.width = "900px";
+    document.getElementById("hidden").style.marginTop = "4%";
+    document.getElementById("hidden").style.borderBottomLeftRadius = "5px";
+    document.getElementById("hidden").style.borderBottomRightRadius = "5px";
+    document.getElementById("hidden").style.borderTopLeftRadius = "5px";
+    document.getElementById("hidden").style.webkitBorderTopRightRadius = "5px";
 }
 function hiddenTeam(){
-    document.getElementById("hidden").style.display = 'block';
     document.getElementById("hidden").style.visibility = "hidden";
 }
 function watchUTube(){
@@ -41,8 +48,8 @@ function watchUTube(){
     window.open("https://youtu.be/aawxhGuYr2M");
 }
 function funnyImage(event){//this is blown up
-    event.style.height = "200px";
-    event.style.width = "200px";
+    event.style.height = "150px";
+    event.style.width = "150px";
     //textBlowUp();    
 }
 function normImage(event){//this is normal
@@ -50,6 +57,7 @@ function normImage(event){//this is normal
     event.style.width = "50px";
     //textNormal();
 }
+//setInterval(() => h1Sales.hidden = !h1Sales.hidden, 1000 );
 // function textBlowUp(){
 //     document.getElementById("pBoss").visibility = "visible";
 //     document.getElementById("pBoss").style.fontSize = "10px";

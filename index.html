@@ -15,48 +15,57 @@
     <header>
         <audio id="audiotag" src="paper-rustle-5.mp3" autoplay >
         </audio>
-    <div class="banner">
-       <div class="divTextBan">Munder Difflin Paper Company</div>
-       <div class="divTextSubBan">Dixon City PA, USA "The better paper company!"</div>    
-    </div>
+    <!-- Banner section -->
+        <section class="banner">
+            <div class="divTextBan">Munder Difflin Paper Company</div>
+            <div class="divTextSubBan">Dixon City PA, USA "The better paper company!"</div>    
+        </section>
     </header> 
+
     <main>
-    <div class="leftSide">
-        <h1>Who we are ==>
+        <!-- Team images and what we do section -->
+        <section class="leftSide">
+            <h1>Who we are ==>
         
-        <img src="regionalManager.png" alt="ugh" class="imgManger" onmouseover="funnyImage(this)" onmouseout="normImage(this)">
-        <img src="assistantRegionalManager.png" alt="ugh" class="imgManger" onmouseover="funnyImage(this)" onmouseout="normImage(this)">
-        <img src="assistantRegionalSalesMgr.png" alt="ugh" class="imgManger" onmouseover="funnyImage(this)" onmouseout="normImage(this)">
-        <img src="pamBeesly.png" alt="ugh" class="imgManger" onmouseover="funnyImage(this)" onmouseout="normImage(this)">
-        </h1>
-        <p class="pStuff1">At Munder Difflin paper company we strive for excellence when it comes to paper distribution
+                <img src="regionalManager.png" alt="ugh" class="imgManger" onmouseover="funnyImage(this)" onmouseout="normImage(this)">
+                <img src="assistantRegionalManager.png" alt="ugh" class="imgManger" onmouseover="funnyImage(this)" onmouseout="normImage(this)">
+                <img src="assistantRegionalSalesMgr.png" alt="ugh" class="imgManger" onmouseover="funnyImage(this)" onmouseout="normImage(this)">
+                <img src="pamBeesly.png" alt="ugh" class="imgManger" onmouseover="funnyImage(this)" onmouseout="normImage(this)">
+            </h1>
+            <p class="pStuff1">At Munder Difflin paper company we strive for excellence when it comes to paper distribution
             and products. We make it our goal to meet and exceed our customers needs. We offer the right
-            product at the right price. <span class="theSpan">Guranteed!</span>
-        </p>
-    </div>
-    <div class="crmpBall">
-        <img src="/Users/macuser/Documents/NYCode+DesignAcademy/projects/munderDifflinPaper/crumpled-paper-ball.jpg" alt="wow" class="resizePprBllImg">
-        <h1 class="h1Sales">Paper Sales</h1>
-    </div>
-    <div id="divSize">
-        <p class="pFun" onmouseover=makeItFunny(this) onmouseout="makeItNormal(this)">"Limitless paper in a paperless world!"</p>
-    </div>
-    <div class="saleBox">
-        <p class="pStuff">Copy paper </p>
-        <img src="copy-paper.jpg" alt="wow" class="copyImg">    
-    </div>
-    <div class="saleBox">
-        <p class="pStuff">News Paper Rolls</p>
-        <img src="paper-rolls.jpeg" alt="wow" class="copyImg">
-    </div>
-    <div class="saleBox">
-        <p class="pStuff">Best Toilet Paper</p>
-        <img src="funny-tp.jpeg" alt="wow" class="copyImg" onmouseover="funnyFunction(this)" onmouseout="backToNormal(this)">
-    </div>
-    <p class="priceStuff">Call for pricing!</p>
-    <p class="priceStuff">756-890-7600</p>
-    <p class="priceStuff">Or you can checkout our competitors</p>
-    <button class="buttonStuff" onclick="watchUTube()" >Watch the pain!</button>
+            product at the right price. <span class="theSpan">Guaranteed!</span>
+            </p>
+        </section>
+        <!-- Paper Sales Animation section -->
+        <section class="crmpBall">
+            <img src="/Users/macuser/Documents/NYCode+DesignAcademy/projects/munderDifflinPaper/crumpled-paper-ball.jpg" alt="wow" class="resizePprBllImg">
+            <h1 class="h1Sales">Paper Sales</h1>
+        </section>
+        <!-- Funny text changes color section -->
+        <section id="divSize">
+            <p class="pFun" onmouseover=makeItFunny(this) onmouseout="makeItNormal(this)">"Limitless paper in a paperless world!"</p>
+        </section>
+        <!-- Copy paper sale section -->
+        <section class="saleBox">
+            <p class="pStuff">Copy paper </p>
+            <img src="copy-paper.jpg" alt="wow" class="copyImg">    
+        </section>
+        <!-- Paper rolls sale section -->
+        <section class="saleBox">
+            <p class="pStuff">News Paper Rolls</p>
+            <img src="paper-rolls.jpeg" alt="wow" class="copyImg">
+        </section>
+        <!-- Toilet paper sale section -->
+        <section class="saleBox">
+            <p class="pStuff">Best Toilet Paper</p>
+            <img src="funny-tp.jpeg" alt="wow" class="copyImg" onmouseover="funnyFunction(this)" onmouseout="backToNormal(this)">
+        </section>
+        <!-- Call and competitors video -->
+        <p class="priceStuff">Call for pricing!</p>
+        <p class="priceStuff">756-890-7600</p>
+        <p class="priceStuff">Or you can checkout our competitors</p>
+        <button class="buttonStuff" onclick="watchUTube()" >Watch the pain!</button>
     </main>
     
     <!--I tried to get the below code to work using W3 School but I couldn't
@@ -64,24 +73,24 @@
     <!-- <video id="myVideo" width="320" height="176">
         <source src="https://youtu.be/aawxhGuYr2M" type="video/mp4">
     </video> -->
-   
-   
-    
-    <footer>
+    <!-- Below does not work, the video failed so I will keep the button link -->
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/aawxhGuYr2M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+        <footer>
         
-           <p class="theFoot"> Munder Difflin Paper Incorporated 
-            423 Jefferson Road
-            Dickson City PA, 123654
-            Phone: 756-890-7651
-            Fax:   756-890-7799</p>
-         <div class="btnDiv" >   
-            <button class="btnSee" onclick="seeTeam()" >Click me</button>
-            <button class="btnHide" onclick="hiddenTeam()">Click to hide</button>
-         </div> 
-         <img id="hidden" class="hidden" src="team.png" />
+            <p class="theFoot"> Munder Difflin Paper Incorporated 
+                423 Jefferson Road
+                Dickson City PA, 123654
+                Phone: 756-890-7651
+                Fax:   756-890-7799</p>
+            <div class="btnDiv" >   
+                <button class="btnSee" onclick="seeTeam()" >Click me</button>
+                <button class="btnHide" onclick="hiddenTeam()">Click to hide</button>
+            </div> 
+
+            <img id="hidden" class="hidden" src="team.png" />
 
        
-     </footer>
+        </footer>
      <script src="main.js"></script>
 </body>
 </html>
